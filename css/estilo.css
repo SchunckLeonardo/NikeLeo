@@ -1,0 +1,274 @@
+body {
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Estilo Header */
+
+ header a.nav-link:hover {
+	border-bottom: 1px solid #000;
+}
+
+form.form-inline input {
+	background: url(../imagens/lupa.png) no-repeat left;
+	padding-left: 40px;
+}
+
+/* Estilo Slide */
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+	width: 100%;
+}
+
+div.carousel-caption a {
+	margin-bottom: 30px;
+}
+
+/* Estilo Calçados */
+
+#calcados {
+	margin-top: 35px;
+}
+
+.albuns {
+	padding: 10px 0;
+}
+
+.branco {
+	color: #000;
+	text-align: center;
+}
+
+div.branco h2 { 
+	font-family: "ark";
+}
+
+div.branco h4 { 
+	margin-top: 50px;
+}
+
+div.branco button {
+	margin-top: 150px;
+}
+
+div.albuns img:hover {
+	transform: rotate(10deg);
+	transition: all 0.5s ease;
+}
+
+/* Estilo CR7 */
+
+#cr7 {
+	margin-top: 150px;
+}
+
+div.nike-atleta h1 {
+	font-family: "gobold";
+	margin-top: 75px;
+	border-bottom: 5px solid gold;
+	display: inline-block;
+}
+
+div.nike-atleta li {
+	padding: 15px;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div.nike-atleta button.btn {
+	margin-left: 27%;
+	margin-top: 150px;
+}
+
+/* Footer */
+
+footer {
+	background-color: #111;
+	padding: 24px 0 0;
+}
+
+footer div.row {
+	padding: 16px 8px 8px 16px;
+}
+
+footer div.col-md-3 ul {
+	list-style: none;
+}
+
+footer div.col-md-3 {
+	padding: 8px 15px 0px 14px;
+}
+
+footer div.col-md-2 {
+	padding: 8px 15px 0px 14px;
+}
+
+footer div.col-md-2 ul {
+	list-style: none;
+}
+
+footer div.col-md-3 .branco-link {
+	font-size: 14px;
+	font-family: "NikeTG";
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+footer div.col-md-2 .branco-link {
+	font-size: 14px;
+	font-family: "NikeTG";
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+footer div.col-md-3 a.branco-link:hover {
+	text-decoration: none;
+	color: #8f9299;
+	transition: color .3s;
+}
+
+footer div.col-md-2 .branco-link:hover {
+	text-decoration: none;
+	color: #8f9299;
+	transition: color .3s;
+}
+
+footer div.col-md-3 li {
+	margin: 0 0 3px;
+	padding: 8px 0 0;
+}
+
+footer div.col-md-2 li {
+	margin: 0 0 3px;
+	padding: 8px 0 0;
+	font-size: 12px;
+	color: #7E7E7E;
+}
+
+footer div.col-md-2 li:hover {
+	color: #FFFFFF;
+	cursor: pointer;
+	transition: color .5s;
+}
+
+footer div.col-md-3 a {
+	color: #7E7E7E;
+	font-size: 12px;
+}
+
+footer div.col-md-3 a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	transition: color .3s;
+}
+
+footer div.col-md-4 h4 {
+	font-size: 14px;
+	font-family: "NikeTG";
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 8px 0 0;
+	margin: 7px 0 3px;
+}
+
+
+
+/* Fontes Customizadas */
+@font-face {
+	font-family: "batman";
+	src: url(../fontes/batmfa__.woff);
+}
+
+@font-face {
+	font-family: "ark";
+	src: url(../fontes/Arkhip_font.otf);
+}
+
+@font-face {
+	font-family: "gobold";
+	src: url(../fontes/Gobold-Bold.woff);
+}
+
+@font-face {
+	font-family: "gobold2";
+	src: url(../fontes/Gobold\ Regular.otf);
+}
+
+@font-face {
+	font-family: "NikeTG";
+	src: url(../fontes/NikeTG.otf);
+}
+
+div.carousel-caption h1 {
+	font-family: "batman";
+	text-shadow: 10px 10px 10px #000;
+}
+
+/* Media Queries */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+	div.carousel-caption h1 {
+		font-size: 1em;
+	}
+	
+	div.carousel-caption a {
+		font-size: 0.5em;
+		margin-bottom: 0px;
+	}
+ }
+
+ section#cr7 div.col-md-6 button {
+	margin-bottom: 100px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 	
+	div.carousel-caption h1 {
+	font-size: 2em;
+}
+
+div.carousel-caption a {
+	font-size: 0.8em;
+	margin-bottom: 0px;
+} }
+
+section#cr7 div.col-md-6 button {
+	margin-bottom: 100px;
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	div.carousel-caption h1 {
+		font-size: 3em;
+	}
+
+	div.carousel-caption a {
+		font-size: 1em;
+		margin-bottom: 0px;
+	}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 	
+	div.carousel-caption h1 {
+		font-size: 4em;
+	}
+
+	div.carousel-caption a {
+		font-size: 1.2em;
+		margin-bottom: 0px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
